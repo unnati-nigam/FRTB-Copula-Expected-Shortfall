@@ -52,8 +52,6 @@ The model demonstrated exceptional accuracy in both frequency and magnitude of t
 
 ### Visualizations
 
-*(Note: Add the generated plots to an `images/` folder in your repo and uncomment the lines below)*
-
 **1. Tail Dependence (Joint Crashes)** Demonstrating the Student-t Copula capturing simultaneous extreme drops in asset values.  
 **2. Simulated Portfolio Loss Distribution** Showcasing the heavy left tail and the mathematical gap between VaR and Expected Shortfall.  
 ## 💻 Tech Stack
@@ -61,11 +59,6 @@ The model demonstrated exceptional accuracy in both frequency and magnitude of t
 * **Core Libraries:** `numpy`, `pandas`, `scipy.stats`
 * **Quantitative/Econometrics:** `arch` (GARCH modeling), `statsmodels` (ECDF, distributions)
 * **Visualization:** `matplotlib`, `seaborn`
-
-## ⚙️ How to Run
-1. Clone the repository: `git clone https://github.com/yourusername/FRTB-Copula-Expected-Shortfall.git`
-2. Install the required dependencies: `pip install -r requirements.txt`
-3. Execute the Jupyter Notebook: `jupyter notebook FRTB_Model_Validation.ipynb`
 
 ## ⚖️ Model Limitations & Assumptions (SR 11-7 Compliance)
 As required by standard MRV practices, the following limitations are noted:
